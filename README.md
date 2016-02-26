@@ -6,7 +6,7 @@
 
 ```php
 $z = new Zurinet();
-foreach($z->getReviews(18300) as $review) {
+foreach ($z->getReviews(18300) as $review) {
     printf("%s: %s\n", $review['author'], $review['message']);
 }
 ```
